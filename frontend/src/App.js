@@ -6,7 +6,7 @@ import './App.css';
 // Configure PDF.js worker
 pdfjsLib.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js`;
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_URL = process.env.REACT_APP_API_URL || 'https://pdf-repo.onrender.com';
 
 const FIELD_TYPES = [
   { id: 'signature', label: 'Signature', icon: Square, color: 'bg-blue-500' },
